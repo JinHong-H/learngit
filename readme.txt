@@ -3,4 +3,4 @@ Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 Git tracks changes of files.
 master
-ÖĞÎÄ²âÊÔ
+ä¸­æ–‡æµ‹è¯•UTF-8ç¼–ç 
