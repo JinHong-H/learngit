@@ -7,4 +7,5 @@ master
 dev 分支测试1
 分支合并测试1
 分支合并测试2
-add merge
+add merge 
+修复bug
