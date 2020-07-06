@@ -224,3 +224,5 @@ git merge --no-ff -m "merge with no-ff" dev(分支名)
 + 命令```git tag -d <tagname>```可以删除一个本地标签；
 
 + 命令```git push origin :refs/tags/<tagname>```可以删除一个远程标签。
+
+![RUNOOB 图标](https://img-blog.csdnimg.cn/20200311181420510.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FhODA0NzM4NTM0,size_16,color_FFFFFF,t_70)
