@@ -1,6 +1,7 @@
 ### HTML基本（常用）标签的整理:
 
 [HTML 标准属性参考手册]([超链接地址](https://www.w3school.com.cn/tags/html_ref_standardattributes.asp) "超链接title")
+
 #### 基本
 
 ```(HTML)
@@ -88,6 +89,8 @@
 
 # 实例
 
+***
+
 ## 1. 基础
 
 ### 1.1 标题
@@ -112,6 +115,8 @@
 <p>This is a paragraph.</p>
 <p>This is another paragraph.</p>
 ```
+
++
 
 ### 1.3 链接
 
@@ -149,6 +154,8 @@
 
 ```<!-- This is a comment -->```
 
+***
+
 ## 2. HTML元素
 
 + HTML 文档是由 HTML 元素定义的。
@@ -175,6 +182,8 @@
 + 在 XHTML、XML 以及未来版本的 HTML 中，所有元素都必须被关闭。
 
 + 在开始标签中添加斜杠，比如```<br />(推荐使用)```，是关闭空元素的正确方法，HTML、XHTML 和 XML 都接受这种方式。
+
+***
 
 ## 3. HTML属性
 
@@ -227,3 +236,186 @@
 
 + 属性值应该始终被包括在引号内。双引号是最常用的，不过使用单引号也没有问题。
 
+***
+
+## 4. 样式
+
+### 4.1 背景颜色
+
++ background-color 属性为元素定义了背景颜色
+
+```(html)
+<html>
+
+<body style="background-color:yellow">
+<h2 style="background-color:red">This is a heading</h2>
+<p style="background-color:green">This is a paragraph.</p>
+</body>
+
+</html>
+```
+
+### 4.2 字体、颜色和尺寸
+
++ font-family、color 以及 font-size 属性分别定义元素中文本的字体系列、颜色和字体尺寸：
+
+```(html)
+<html>
+
+<body>
+<h1 style="text-align:center">This is a heading</h1>
+<p>The heading above is aligned to the center of this page.</p>
+</body>
+
+</html>
+```
+
+***
+
+## 5. 格式化
+
+|标签|描述|
+|  ----  | ----  |
+| ```<b>```  | 定义粗体文字 |
+| ```<big>```  | 定义大号文字 |
+| ```<em>```  | 定义着重文字 |
+| ```<i>```  | 定义斜体字 |
+| ```<small>```  | 定义小号文字 |
+| ```<strong>```  | 加重语气 |
+| ```<sub>```  | 定义下标字 |
+| ```<sup>```  | 定义上标字 |
+| ```<in>```  | 定义插入字 |
+| ```<del>```  | 定义删除字 |
+
+### 5.1 文本格式化
+
+```(html)
+<html>
+
+<body>
+
+<b>This text is bold</b>
+
+<br />
+
+<strong>This text is strong</strong>
+
+<br />
+
+<big>This text is big</big>
+
+<br />
+
+<em>This text is emphasized</em>
+
+<br />
+
+<i>This text is italic</i>
+
+<br />
+
+<small>This text is small</small>
+
+<br />
+
+This text contains
+<sub>subscript</sub>
+
+<br />
+
+This text contains
+<sup>superscript</sup>
+
+</body>
+</html>
+
+```
+
+### 5.2 预格式文本
+
+```(html)
+<html>
+
+<body>
+
+<pre>
+这是
+预格式文本。
+它保留了      空格
+和换行。
+</pre>
+
+<p>pre 标签很适合显示计算机代码：</p>
+
+<pre>
+for i = 1 to 10
+     print i
+next i
+</pre>
+
+</body>
+</html>
+```
+
+### 5.3 地址
+
+```(html)
+<!DOCTYPE html>
+<html>
+<body>
+
+<address>
+Written by <a href="mailto:webmaster@example.com">Donald Duck</a>.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+</body>
+</html>
+```
+
+### 5.4 缩写和首字母缩写
+
+```(html)
+<html>
+
+<body>
+
+<abbr title="etcetera">etc.</abbr>
+<br />
+<acronym title="World Wide Web">WWW</acronym>
+
+<p>在某些浏览器中，当您把鼠标移至缩略词语上时，title 可用于展示表达的完整版本。</p>
+
+<p>仅对于 IE 5 中的 acronym 元素有效。</p>
+
+<p>对于 Netscape 6.2 中的 abbr 和 acronym 元素都有效。</p>
+
+</body>
+</html>
+```
+
+## 6. 引用
+
+### 6.1 ```<q>``` 用于短的引用
+
++ ```<q>``` 元素定义短的引用。
+
++ 浏览器通常会为 ```<q>```元素包围引号。
+
+### 6.2 用于长引用的  ```<blockquote>```
+
++ HTML ```<blockquote>``` 元素定义被引用的节。
+
++ 浏览器通常会对 ```<blockquote>``` 元素进行缩进处理。
+
+```(html)
+<p>以下内容引用自 WWF 的网站：</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+五十年来，WWF 一直致力于保护自然界的未来。
+世界领先的环保组织，WWF 工作于 100 个国家，
+并得到美国一百二十万会员及全球近五百万会员的支持。
+</blockquote>
+```
