@@ -17,7 +17,7 @@
 
 + HTML \<div> 元素是块级元素，它可用于组合其他 HTML 元素的容器。
 
-+ <div> 元素没有特定的含义。除此之外，由于它属于块级元素，浏览器会在其前后显示折行。
++ \<div> 元素没有特定的含义。除此之外，由于它属于块级元素，浏览器会在其前后显示折行。
 
 + 如果与 CSS 一同使用，\<div> 元素可用于对大的内容块设置样式属性。
 
@@ -36,9 +36,9 @@
 ```(html)
 <!DOCTYPE html>
 <html>
-<head> 
-<meta charset="utf-8"> 
-<title>菜鸟教程(runoob.com)</title> 
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
 </head>
 <body>
 
